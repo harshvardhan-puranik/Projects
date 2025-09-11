@@ -1,0 +1,35 @@
+.Nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.img{
+    height: 100%;
+    width: 80px;
+    background: url("../assets/file_000000001a40622fa1b108e69a767a17.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navlist{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5vw;
+    padding: 10px;
+    list-style: none;
+}
+.innerele{
+    text-decoration: none;
+    color: rgb(102, 0, 255);
+    font-size: 20px;
+    transition: .4s;
+    font-weight: 700;
+}
+.innerele:hover{
+    text-shadow: 0px 7px 5px rgb(150, 150, 252);
+}
